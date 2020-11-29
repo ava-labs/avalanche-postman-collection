@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "e337c02e-d072-4741-b24f-e38be44db4b7",
+		"_postman_id": "aad70c6c-b77f-47bb-b732-eb3508995ede",
 		"name": "Avalanche",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -608,7 +608,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f7d94043-85db-4047-999d-24b4e3b97254",
+								"id": "7cd21f0c-432c-45c8-a30a-cc8c38df2f39",
 								"exec": [
 									"var template = `",
 									"    <table bgcolor=\"#FFFFFF\">",
@@ -2776,7 +2776,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"platform.createSubnet\",\n    \"params\": {\n        \"controlKeys\":[\n            \"{{pchainAddress}}\"\n        ],\n        \"threshold\":1,\n        \"from\": [{{pchainAddress}}]\n        \"changeAddr\":\"{{pchainAddress}}\",\n        \"username\": \"{{avalancheUsername}}\",\n        \"password\": \"{{avalanchePassword}}\"\n    },\n    \"id\": 1\n}",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"platform.createSubnet\",\n    \"params\": {\n        \"controlKeys\":[\n            \"{{pchainAddress}}\"\n        ],\n        \"threshold\":1,\n        \"from\": [\"{{pchainAddress}}\"],\n        \"changeAddr\":\"{{pchainAddress}}\",\n        \"username\": \"{{avalancheUsername}}\",\n        \"password\": \"{{avalanchePassword}}\"\n    },\n    \"id\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
